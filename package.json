@@ -1,0 +1,23 @@
+{
+	"name": "geolocation",
+	"version": "1.0.0",
+	"license": "MIT",
+	"source": "index.html",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"type": "module",
+	"scripts": {
+		"start": "parcel index.html --open",
+		"build": "parcel build"
+	},
+	"targets": {
+		"default": {
+			"distDir": "./build"
+		}
+	},
+	"devDependencies": {
+		"parcel": "^2.9.2"
+	},
+	"dependencies": {
+		"leaflet": "^1.9.4"
+	}
+}
